@@ -1,0 +1,20 @@
+{
+    "interval": 2,
+
+    "udp": {
+        "enabled": true,
+        "host": "192.168.1.100",
+        "port": 9000
+    },
+
+    "mqtt": {
+        "enabled": false,
+        "broker": "192.168.1.200",
+        "port": 1883,
+        "topic": "servermon/stats",
+        "client_id": "fnmon-server"
+    },
+
+    "disk_path": "/",
+    "net_interface": null
+}
